@@ -17,7 +17,7 @@ const Hero = () => {
         }} />
       </div>
 
-      <div className="container mx-auto px-6 pt-32 pb-20 relative z-10">
+      <div className="container mx-auto px-6 lg:px-8 pt-32 pb-20 relative z-10 max-w-7xl">
         {/* Top Labels */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -37,7 +37,7 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: [0.33, 1, 0.68, 1] }}
           >
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-display font-extrabold leading-[0.85] mb-8">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-[0.9] mb-8 break-words">
               <span className="block">Creative</span>
               <span className="block text-stroke">Developer</span>
               <span className="block gradient-text">&amp; Designer</span>
@@ -103,7 +103,7 @@ const Hero = () => {
                 <img
                   src={profileImage}
                   alt="Profile"
-                  className="w-full aspect-[4/5] object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full aspect-[4/5] object-cover transition-all duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
               </div>
