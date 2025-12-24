@@ -1,0 +1,24 @@
+# BMAD Universal Configuration
+# Edit these values for your project
+
+# Project Information
+project_name: "Portfolio Website"
+user_name: "Developer"
+
+# Output Settings
+output_folder: "docs"
+sprint_artifacts: "docs/sprint-artifacts"
+
+# Language Settings
+language: "English"
+document_language: "English"
+
+# User Experience Level (beginner, intermediate, advanced)
+# Affects how agents explain concepts
+skill_level: "intermediate"
+
+# Default Planning Track
+# - quick-flow: For bug fixes, small features (1-15 stories)
+# - bmad-method: For products, platforms (10-50+ stories)  
+# - enterprise: For enterprise systems (30+ stories)
+default_track: "bmad-method"
