@@ -31,13 +31,13 @@ const Hero = () => {
         </motion.div>
 
         {/* Main Title */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
+        <div className="grid lg:grid-cols-[1.2fr_1fr] gap-12 items-center mb-20">
           <motion.div
             initial={{ opacity: 0, x: -80 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: [0.33, 1, 0.68, 1] }}
           >
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-extrabold leading-[0.9] mb-8 break-words">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display font-extrabold leading-[0.95] mb-8 whitespace-nowrap">
               <span className="block">Creative</span>
               <span className="block text-stroke">Developer</span>
               <span className="block gradient-text">&amp; Designer</span>
